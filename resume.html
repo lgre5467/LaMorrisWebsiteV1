@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>LaMorris Rowland — Computer Science Portfolio</title>
+<meta name="description" content="Portfolio website of a computer science professional: projects, resume, organizations, and contact." />
+<meta name="theme-color" content="#3b82f6" />
+<meta property="og:title" content="LaMorris Rowland — Computer Science Portfolio" />
+<meta property="og:description" content="Projects • Resume • Organizations • Contact" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="assets/img/profile.svg" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html"><span class="brand-mark">LG</span><span class="brand-text">LaMorris Rowland</span></a>
+    <nav class="nav" id="site-nav">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" id="nav-toggle" title="Open menu">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="organizations.html">Organizations</a></li>
+        <li><a href="contact.html" class="btn btn-primary small">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container page">
+  <h1>Resume</h1>
+  <p>Download a PDF copy: <a class="btn btn-ghost" href="assets/YourName_Resume.pdf" download>YourName_Resume.pdf</a></p>
+
+  <section>
+    <h2>Education</h2>
+    <div class="item">
+      <h3>Virginia State University — B.S. in Computer Science</h3>
+      <p class="meta">Aug 2025 – May 2029 (expected) • GPA: 3.8/4.0</p>
+      <p>Coursework: Data Structures &amp; Algorithms, Systems Programming, Databases, Web Dev, Discrete Math.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <div class="item">
+      <h3>Software Engineer Intern — Company Name</h3>
+      <p class="meta">Jun 2025 – Aug 2025 • Richmond, VA</p>
+      <ul class="bulleted">
+        <li>Built features in a TypeScript/React codebase, improving page performance by 25%.</li>
+        <li>Designed and deployed REST endpoints with Node/Express and PostgreSQL.</li>
+        <li>Wrote automated tests and contributed to CI pipelines (GitHub Actions).</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects (see <a href="projects.html">Projects</a> for more)</h2>
+    <ul class="bulleted">
+      <li>QR Pickup System — Python, JS, HTML/CSS; scans and verifies pickup location codes.</li>
+      <li>Portfolio Generator — Static site tool with reusable templates and deployment scripts.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Leadership &amp; Activities</h2>
+    <ul class="bulleted">
+      <li>Member, ACM &amp; NSBE</li>
+      <li>Teaching Assistant, Intro to Programming</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Honors</h2>
+    <ul class="bulleted">
+      <li>Dean’s List (2024–2025)</li>
+      <li>Programming Contest — Regional Finalist</li>
+    </ul>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; <span id="year"></span> LaMorris Rowland. All rights reserved.</p>
+    <div class="socials">
+      <!-- TODO: Replace # with your links -->
+      <a href="#" aria-label="GitHub">GitHub</a>
+      <a href="#" aria-label="LinkedIn">LinkedIn</a>
+      <a href="#" aria-label="Email">Email</a>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

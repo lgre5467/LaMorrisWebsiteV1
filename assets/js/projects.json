@@ -1,0 +1,59 @@
+[
+  {
+    "title": "QR Pickup System",
+    "description": "Web app that verifies pickup locations via QR codes on receipts and storage areas.",
+    "highlights": [
+      "Python backend prototype with static HTML/JS frontend",
+      "Client-side comparison and validation with clear UI feedback",
+      "Designed for easy kiosk deployment"
+    ],
+    "links": [
+      {
+        "label": "Source",
+        "href": "#"
+      },
+      {
+        "label": "Demo",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "title": "Portfolio Generator",
+    "description": "Static site builder for student portfolios with resume and projects automation.",
+    "highlights": [
+      "Templated HTML with JSON-driven projects",
+      "CI workflow to publish to GitHub Pages",
+      "Accessible, responsive design tokens"
+    ],
+    "links": [
+      {
+        "label": "Source",
+        "href": "#"
+      },
+      {
+        "label": "Docs",
+        "href": "#"
+      }
+    ]
+  },
+  {
+    "title": "Systems Lab \u2014 Cache Simulator",
+    "description": "C program to simulate cache policies and measure hit/miss rates.",
+    "highlights": [
+      "Configurable associativity and replacement strategies",
+      "Unit tests for validation",
+      "Benchmarking harness and report"
+    ],
+    "links": [
+      {
+        "label": "Report",
+        "href": "#"
+      },
+      {
+        "label": "Source",
+        "href": "#"
+      }
+    ]
+  }
+]

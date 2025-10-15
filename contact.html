@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>LaMorris Rowland — Computer Science Portfolio</title>
+<meta name="description" content="Portfolio website of a computer science professional: projects, resume, organizations, and contact." />
+<meta name="theme-color" content="#3b82f6" />
+<meta property="og:title" content="LaMorris Rowland — Computer Science Portfolio" />
+<meta property="og:description" content="Projects • Resume • Organizations • Contact" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="assets/img/profile.svg" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html"><span class="brand-mark">LG</span><span class="brand-text">LaMorris Rowland</span></a>
+    <nav class="nav" id="site-nav">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" id="nav-toggle" title="Open menu">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="organizations.html">Organizations</a></li>
+        <li><a href="contact.html" class="btn btn-primary small">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container page">
+  <h1>Contact Me</h1>
+  <p>I’m open to internships, freelance work, and collaborations. Send a message and I’ll get back to you.</p>
+  <form class="contact-form" id="contact-form" novalidate>
+    <div class="grid two">
+      <div class="field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Jane Doe" />
+        <small class="error" id="err-name"></small>
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="jane@example.com" />
+        <small class="error" id="err-email"></small>
+      </div>
+    </div>
+    <div class="field">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required placeholder="Tell me about your project or role..." rows="6"></textarea>
+      <small class="error" id="err-message"></small>
+    </div>
+    <div class="actions">
+      <button type="submit" class="btn btn-primary">Send</button>
+      <a class="btn btn-ghost" id="mailto-link" href="#">Use email client</a>
+    </div>
+    <p class="form-note">This is a static site demo. By default it constructs a <code>mailto:</code> link for your email client. For production, connect to a backend (e.g., Formspree, AWS Lambda, or a server).</p>
+  </form>
+</main>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; <span id="year"></span> LaMorris Rowland. All rights reserved.</p>
+    <div class="socials">
+      <!-- TODO: Replace # with your links -->
+      <a href="#" aria-label="GitHub">GitHub</a>
+      <a href="#" aria-label="LinkedIn">LinkedIn</a>
+      <a href="#" aria-label="Email">Email</a>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

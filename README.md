@@ -6,7 +6,11 @@ The following features are implemented in the project:
 
 - [ ] Homepage
 
-- [ ] Example
+- [ ] Organizations
+
+- [ ] Projects
+
+- [ ] Contacts 
 
 ## Project Design:
 
@@ -20,4 +24,4 @@ OR
 
 ## Notes and Comments
 
-*Add Notes*
+*Website still in progress, things might be different when I come back and finish it.*
